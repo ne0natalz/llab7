@@ -1,10 +1,12 @@
 #include <iostream>
 
 int main() {
-    int a  =  20; b = 30;
-    int c = 4, output;
+    int a  =  20;
+    int b = 30;
+    int c = 4;
+    float output;
 
-    outpot = a - b/c;
-    count << output: << output << \n;
+    output = static_cast<float>(a + b) / c;
+    std::cout << "output: " << output << std::endl;
     return 0;
 }
